@@ -1,7 +1,6 @@
 import React from 'react'
 import { SidebarProvider, SidebarTrigger } from '../ui/sidebar'
 import { AppSidebar } from './AppSidebar'
-import { Input } from '../ui/input'
 
 
 interface Mainlayout {

@@ -11,7 +11,7 @@ export default function MainPageClient() {
   const [popular, setPopular] = useState<Movies[]>([])
   const [topRated, setTopRated] = useState<Movies[]>([])
   const [upcoming, setUpcoming] = useState<Movies[]>([])
-  const [loading, setLoading] = useState<Boolean>(true)
+  const [loading, setLoading] = useState<boolean>(true)
 
   useEffect(() => {
     const fetch = async() => {
