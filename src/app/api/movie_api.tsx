@@ -6,7 +6,7 @@ export const fetchNowPlaying = async () : Promise<Movies[]> => {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer ${process.env.NEXT_PUBLIC_TMDB_API_KEY}`,
+        'Authorization': `Bearer ${process.env.NEXT_PUBLIC_TMDB_API_KEY}`,
       },
     })
 
@@ -29,7 +29,7 @@ export const fetchPopular = async () : Promise<Movies[]> => {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer ${process.env.NEXT_PUBLIC_TMDB_API_KEY}`,
+        'Authorization': `Bearer ${process.env.NEXT_PUBLIC_TMDB_API_KEY}`,
       },
     })
 
@@ -52,7 +52,7 @@ export const fetchTopRated = async () : Promise<Movies[]> => {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer ${process.env.NEXT_PUBLIC_TMDB_API_KEY}`,
+        'Authorization': `Bearer ${process.env.NEXT_PUBLIC_TMDB_API_KEY}`,
       },
     })
 
@@ -75,7 +75,7 @@ export const fetchUpcoming = async () : Promise<Movies[]> => {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer ${process.env.NEXT_PUBLIC_TMDB_API_KEY}`,
+        'Authorization': `Bearer ${process.env.NEXT_PUBLIC_TMDB_API_KEY}`,
       },
     })
 
